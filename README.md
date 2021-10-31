@@ -81,8 +81,14 @@ The topics that I'm interested in are:
 - Which violation was most popular? 
 - Whch state has the most violation 
 - What's the trend of the average fine, average penalty and average payment during the last 10 years
-Here is my findings
+Here is my findings:
+![alt](dashboard.png)
+- Bronx has the highest average reduction amount
+- The most popular viloation is traffic
+- NY state has the most violation; NJ is the second
+- The average penalty is decreased after 2015, while the average fine amount is incresed after 2015, then it decreased in 2017 and bounced back in 2020. The avearage payment amount ahs been decreased since 2013, until 2020 it incresed. <br>
 
+Next step. I want to find out what caused the decrease and increse. 
 
 
 
