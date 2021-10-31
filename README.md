@@ -72,7 +72,17 @@ CRUD:
 - create index
 - connect to data source and upload it to ES
 - upload to ES by creating a doc
-More details please view code [here]()
+More details please view code [here](https://github.com/leizhangg/9760/blob/main/main.py)
+## Step 4 Visulization 
+If the code runs successfully, then the data will be uploaded to elastic search. <br>
+Open the url from elasticsearch in AWS and find the index named "opcv15", it will show the properties of the dataset.<br>
+The topics that I'm interested in are:
+- Which county had the highest average reduction amount?
+- Which violation was most popular? 
+- Whch state has the most violation 
+- What's the trend of the average fine, average penalty and average payment during the last 10 years
+Here is my findings
+
 
 
 
