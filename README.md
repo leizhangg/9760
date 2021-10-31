@@ -65,7 +65,14 @@ If it goes well, run thic line:
 > ENTRYPOINT ["python","src/main.py"]
 10. Finaly, create a **main.py** in a folder named as **src**
 
-## Step 3 Pytho Code
+## Step 3 Pytho Code 
+CRUD:
+- connect ES with requests module
+- create  authentication aspects 
+- create index
+- connect to data source and upload it to ES
+- upload to ES by creating a doc
+More details please view code [here]()
 
 
 
