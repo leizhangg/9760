@@ -14,10 +14,10 @@ Here is the info of the dataset for reviewer:
 - APP_TOKEN = "YLPWKFq3ghgRKnDktgcxbuWwb"
 - INDEX_NAME = "opcv15"
 - ES_HOST = "https://search-sta9760-t27zq5po3psy3jagr7vtqu7p2e.us-east-1.es.amazonaws.com"
-## Step 1
+## Step 1 AWS
   ### Create EC2 on AWS
   I created EC2 following this [instructions](https://docs.google.com/document/d/13Lyd64fqevIKUnHH38-1YW_2HQdc3GZ8ovewdKdBpt0/edit#heading=h.cb4ce13d31ux)
-## Step 2
+## Step 2 Docker
   ### Create Dockefile and Docker image
   To manage and analyze big data efficiently, a containerization software [Docker](https://www.docker.com/) is used in this project. Instead of download the Docker software on local service, this project userd terminal on AWS to work with Docker.
   
