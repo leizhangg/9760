@@ -65,7 +65,7 @@ If it goes well, run thic line:
 > ENTRYPOINT ["python","src/main.py"]
 10. Finaly, create a **main.py** in a folder named as **src**
 
-## Step 3 Pytho Code 
+## Step 3 ElasticSearch
 CRUD:
 - connect ES with requests module
 - create  authentication aspects 
