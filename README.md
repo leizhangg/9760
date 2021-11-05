@@ -1,7 +1,7 @@
 #  Documentation of 9760 project 1
 This porject is a practice of how to connect AWS with Docker and Elasticsearch, kibana to analyze the Open Parking and Camera Violations. <br>
 Data source: [NYC Open Data](https://dev.socrata.com/foundry/data.cityofnewyork.us/nc67-uf89)<br>
-## Topic included:
+# Topic included:
 - AWS EC2
 - Elastic Search
 - Elastic Kibana Visualization
@@ -14,9 +14,15 @@ Here is the info of the dataset for reviewer:
 - APP_TOKEN = "YLPWKFq3ghgRKnDktgcxbuWwb"
 - INDEX_NAME = "opcv15"
 - ES_HOST = "https://search-sta9760-t27zq5po3psy3jagr7vtqu7p2e.us-east-1.es.amazonaws.com"
+
+# Table of Content
+- [Step 1 AWS](#step-1-aws)
+- [Step 2 Docker](#step-2-docker)
+- [Step 3 ElasticSearch](#step-3-elasticsearch)
+- [Step 4 Visualization](#step-4-visualization)
 ## Step 1 AWS
   ### Create EC2 on AWS
-  I created EC2 following this [instructions](https://docs.google.com/document/d/13Lyd64fqevIKUnHH38-1YW_2HQdc3GZ8ovewdKdBpt0/edit#heading=h.cb4ce13d31ux)
+  Create EC2 following this [instructions](https://docs.google.com/document/d/13Lyd64fqevIKUnHH38-1YW_2HQdc3GZ8ovewdKdBpt0/edit#heading=h.cb4ce13d31ux)
 ## Step 2 Docker
   ### Create Dockefile and Docker image
   To manage and analyze big data efficiently, a containerization software [Docker](https://www.docker.com/) is used in this project. Instead of download the Docker software on local service, this project userd terminal on AWS to work with Docker.
@@ -73,7 +79,7 @@ CRUD:
 - connect to data source and upload it to ES
 - upload to ES by creating a doc
 More details please view code [here](https://github.com/leizhangg/9760/blob/main/main.py)
-## Step 4 Visulization 
+## Step 4 Visualization 
 If the code runs successfully, then the data will be uploaded to elastic search. <br>
 Open the url from elasticsearch in AWS and find the index named "opcv15", it will show the properties of the dataset.<br>
 The topics that I'm interested in are:
