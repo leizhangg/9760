@@ -1,4 +1,4 @@
-#  Documentation of 9760 project 1
+#  9760 project 1
 This porject is a practice of how to connect AWS with Docker and Elasticsearch, kibana to analyze the Open Parking and Camera Violations. <br>
 Data source: [NYC Open Data](https://dev.socrata.com/foundry/data.cityofnewyork.us/nc67-uf89)<br>
 # Topic included:
@@ -94,7 +94,6 @@ Here is my findings:
 - NY state has the most violation; NJ is the second
 - The average penalty is decreased after 2015, while the average fine amount is incresed after 2015, then it decreased in 2017 and bounced back in 2020. The avearage payment amount ahs been decreased since 2013, until 2020 it incresed. <br>
 
-Next step. I want to find out what caused the decrease and increse. 
 
 
 
